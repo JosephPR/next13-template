@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function loading() {
   return (
-    <div>loading...</div>
+    <h1>loading...</h1>
   )
 }
