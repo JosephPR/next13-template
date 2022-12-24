@@ -1,0 +1,45 @@
+:root{
+--dark: #000;
+--light: #fff;
+--primary: #00344c;
+--primary-shade-100: #213741;
+--secondary: #798478;
+--border-radius: 8px;
+
+
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--dark);
+}
+h1{
+  text-align: center;
+  padding:2rem;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  
+
+}
+a:hover {
+  color: var(--secondary)
+  
+
+}
+li{
+  list-style: none;
+}
