@@ -1,9 +1,12 @@
 :root{
 --dark: #000;
 --light: #fff;
---primary: #00344c;
---primary-shade-100: #213741;
---secondary: #798478;
+--primary: #172A3A;
+--primary-shade-100: #E2EBF3;
+--primary-shade-400: #7EA6C9;
+--primary-shade-700: #3C6990;
+--secondary: #c2a688;
+--secondary-shade-400: #7c6853;
 --border-radius: 8px;
 
 
@@ -20,10 +23,12 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+ 
 }
 
 body {
-  color: var(--dark);
+  color: var(--primary);
+  
 }
 h1{
   text-align: center;
@@ -36,7 +41,7 @@ a {
 
 }
 a:hover {
-  color: var(--secondary)
+  color: var(--primary-shade-400);
   
 
 }

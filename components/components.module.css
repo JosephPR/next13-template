@@ -5,8 +5,10 @@
   color: var(--light);
 }
 .navItems {
+  font-size:1.5rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .navItem {
   padding-right: 1.5rem;

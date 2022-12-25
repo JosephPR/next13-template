@@ -1,8 +1,10 @@
 import React from 'react'
+import styles from './todo.module.css'
+
 
 function notFound() {
   return (
-    <div>Your Search turned up nothing, sorry.</div>
+    <h2 className={styles.center}>Your Search turned up nothing, sorry.</h2>
   )
 }
 
