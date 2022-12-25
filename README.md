@@ -1,8 +1,8 @@
 
-**Home Page
+## Home Page
 ![Screenshot](next-template-app-folder.png)
 
-**Folder Structure
+## Folder Structure
 
 ![folder Structure](folder-structure.png)
 
