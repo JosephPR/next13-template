@@ -17,7 +17,7 @@
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 3rem;
 }
 .buttonPrimary,
@@ -27,17 +27,19 @@
   min-width: 15rem;
   text-decoration: none;
   border-radius: var(--border-radius);
-  border: 2px solid var(--secondary);
   box-shadow: 3px 3px 3px #0f334340;
 }
 .buttonPrimary {
   color: var(--primary);
   transition: 0.3s;
+  background-color: var(--light);
 }
 .buttonSecondary {
   color: var(--light);
   background-color: var(--secondary);
   transition: 0.3s;
+  /* border: 2px solid var(--secondary); */
+
 }
 .buttonPrimary:hover {
   color: var(--light);
@@ -48,4 +50,15 @@
   color: var(--primary);
   background-color: var(--light);
   box-shadow: 3px 5px 5px #0f334340;
+}
+.imagePopup{
+max-width: 500px;
+aspect-ratio: 4/3;
+display: inline-block;
+border-radius: var(--border-radius)
+}
+.imageContainer{
+  display: flex;
+    justify-content: center;
+    margin-top: 35px;
 }

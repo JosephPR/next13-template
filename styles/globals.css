@@ -6,7 +6,7 @@
 --primary-shade-400: #97c1e5;
 --primary-shade-700: #3C6990;
 --secondary: #106d82;
---secondary-shade-400: #78cbee;
+--secondary-shade-400: #a3ccde;
 --border-radius: 8px;
 
 
@@ -27,12 +27,13 @@ body {
 }
 
 body {
+  background-color:var(--primary-shade-100);
   color: var(--primary);
+  line-height: 1.6;
   
 }
 h1{
-  text-align: center;
-  padding:2rem;
+ padding:2rem 0;
 }
 a {
   color: inherit;

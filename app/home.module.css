@@ -1,5 +1,10 @@
 .content{
     max-width: 700px;
-    text-align: center;
     margin:auto;
+}
+.homeContainer {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+place-items: center;
+margin-top: 4rem;
 }
