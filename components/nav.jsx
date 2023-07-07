@@ -10,6 +10,9 @@ export default function nav() {
           <Link href="/"> Home</Link>
         </li>
         <li className={styles.navItem}>
+          <Link href="/about"> About</Link>
+        </li>
+        <li className={styles.navItem}>
           <Link href="/todos"> Dynamic routes</Link>
         </li>
       </ul>

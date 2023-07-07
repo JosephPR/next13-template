@@ -1,4 +1,4 @@
-.nav {
+.nav, .footer {
   background-color: var(--primary);
   min-height: 5rem;
   padding: 3rem;
@@ -13,6 +13,7 @@
 .navItem {
   padding-right: 1.5rem;
 }
+
 .buttonContainer {
   margin-top: 2rem;
   display: flex;
@@ -62,3 +63,15 @@ border-radius: var(--border-radius)
     justify-content: center;
     margin-top: 35px;
 }
+.heroSection{
+display: grid;
+place-items: center;
+}
+.heroContent{
+  text-align: center;
+  color: #fff;
+}
+.heroContent h1{
+  font-size: 5rem;
+}
+
