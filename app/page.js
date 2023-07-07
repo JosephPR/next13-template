@@ -14,7 +14,7 @@ export default function Home() {
      />
     <section className={styles.homeContainer}>
       <div>
-      <h1>This is a Template that uses the new app directory (Still in Beta) for Next 13</h1>
+      <h2>This is a Template that uses the new app directory (Still in Beta) for Next 13</h2>
       <p className={styles.content}>
         In Next.js 13, they announced the new app directory (beta). This new
         routing and data fetching system can be incrementally adopted alongside

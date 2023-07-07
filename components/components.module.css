@@ -74,4 +74,18 @@ place-items: center;
 .heroContent h1{
   font-size: 5rem;
 }
+.popupSection{
+  position:relative
+}
+.playButtonIcon{
+position:absolute;
+max-width: 3rem;
+border-radius: 50%;
+top:50%;
+left:46%;
+opacity: .3;
+}
+.playButtonIcon:hover{
 
+  opacity: .5;
+  }

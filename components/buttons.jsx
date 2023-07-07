@@ -7,12 +7,16 @@ export default function buttons() {
     <div>
     <div className={styles.buttonContainer}>
         <a
+        target="_blank"
           className={styles.buttonPrimary}
           href="https://github.com/JosephPR/next13-template"
         >
           Template Repo
         </a>
-        <a className={styles.buttonSecondary} href="https://nextjs.org/">
+        <a 
+        target="_blank"
+        className={styles.buttonSecondary}
+         href="https://nextjs.org/">
           Next Js
         </a>
       </div>

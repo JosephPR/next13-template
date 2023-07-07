@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./components.module.css";
 
 export default function Hero({image, title, subtitle}){
-    console.log(image)
 return(
     <>
     <section className={styles.heroSection} style={{ 

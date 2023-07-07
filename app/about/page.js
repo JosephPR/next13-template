@@ -19,7 +19,7 @@ export default function About() {
     />
 
       <div>
-      <h1>This is the About Page route</h1>
+      <h2>This is the About Page route</h2>
       <p className={styles.content}>
         In Next.js 13, they announced the new app directory (beta). This new
         routing and data fetching system can be incrementally adopted alongside

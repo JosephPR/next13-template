@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html className={exo.className}>
       <Head />
-      <body className={styles.body}>
+      <body>
         <Nav />
         <div className={styles.children}>
         {children}
