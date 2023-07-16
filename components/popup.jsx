@@ -1,19 +1,22 @@
 import React from "react";
 import styles from "./components.module.css";
 
-export default function buttons() {
+export default function buttons({popupVideo, imageUrl}) {
   return (
     <>
-    <div>
+    <div className={styles.popupSection}>
+      <img className={styles.playButtonIcon} src="https://img.freepik.com/premium-vector/play-button-icon-symbol-transparent-background-video-audio-player-vector-illustration_350225-118.jpg?w=2000" alt="play-button-icon"/>
     <a
           className={styles.imageContainer}
           data-fancybox
-          href="https://www.youtube.com/embed/Vq8HeDX3KYY"
+          href={popupVideo}
         >
           <img
             className={styles.imagePopup}
-            src="https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            src={imageUrl}
           />
+                <img className={styles.playButtonIcon} src="https://img.freepik.com/premium-vector/play-button-icon-symbol-transparent-background-video-audio-player-vector-illustration_350225-118.jpg?w=2000" alt="play-button-icon"/>
+
         </a>
 
     </div>

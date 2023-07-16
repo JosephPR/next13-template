@@ -3,7 +3,7 @@ import Head from "./head.js";
 import { Exo } from "@next/font/google";
 import Nav from "../components/nav";
 import styles from './layout.module.css'
-
+import Footer from "../components/footer";
 const exo = Exo({
   weight: ["400", "700"],
 });
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <div className={styles.children}>
         {children}
         </div>
-        
+        <Footer/>
       </body>
     </html>
   );
