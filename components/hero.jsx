@@ -8,7 +8,6 @@ return(
     backgroundImage:`url(${image})`,
     backgroundRepeat:"no-repeat",
     backgroundSize:"100%", 
-    backgroundPosition:"center",
     height:'85vh'
  
   }}>
