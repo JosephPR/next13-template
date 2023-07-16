@@ -8,6 +8,7 @@ export default function buttons() {
     <div className={styles.buttonContainer}>
         <a
         target="_blank"
+        rel="noreferrer"
           className={styles.buttonPrimary}
           href="https://github.com/JosephPR/next13-template"
         >
@@ -15,6 +16,7 @@ export default function buttons() {
         </a>
         <a 
         target="_blank"
+        rel="noreferrer"
         className={styles.buttonSecondary}
          href="https://nextjs.org/">
           Next Js
