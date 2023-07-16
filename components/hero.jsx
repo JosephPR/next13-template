@@ -8,7 +8,6 @@ return(
     backgroundImage:`url(${image})`,
     backgroundRepeat:"no-repeat",
     backgroundSize:"100%", 
-    height:'85vh'
  
   }}>
     <div className={styles.heroContent}>
