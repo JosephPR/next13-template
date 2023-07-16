@@ -16,7 +16,7 @@ export default function Home() {
       <div>
       <h2>This is a Template that uses the new app directory (Still in Beta) for Next 13</h2>
       <p className={styles.content}>
-        In Next.js 13, they announced the new app directory (beta). This new
+        In Next.js 13, they announced the new app directory. This new
         routing and data fetching system can be incrementally adopted alongside
         your existing pages directory. The app directory provides many benefits,
         including enhanced layouts, co-location of components, tests, and
