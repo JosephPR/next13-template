@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./components.module.css";
 
-export default function buttons() {
+export default function buttons({link1, link2 }) {
   return (
     <>
     <div>
@@ -10,7 +10,7 @@ export default function buttons() {
         target="_blank"
         rel="noreferrer"
           className={styles.buttonPrimary}
-          href="https://github.com/JosephPR/next13-template"
+          href={link1}
         >
           Template Repo
         </a>
@@ -18,7 +18,7 @@ export default function buttons() {
         target="_blank"
         rel="noreferrer"
         className={styles.buttonSecondary}
-         href="https://nextjs.org/">
+         href={link2}>
           Next Js
         </a>
       </div>

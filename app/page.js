@@ -22,7 +22,7 @@ export default function Home() {
         including enhanced layouts, co-location of components, tests, and
         styles, component-level data fetching, and more.{" "}
       </p>
-      <Buttons />
+      <Buttons link1="https://github.com/JosephPR/next13-template" link2="https://nextjs.org/" />
       </div>
  
      <Popup
